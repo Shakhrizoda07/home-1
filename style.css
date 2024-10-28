@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+header{
+    height: 140px;
+    box-shadow: 0 2px 2px 2px #DEDBDB;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top:30px ;
+    align-items: center;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+main{
+    width: 650px;
+    height: 786px;
+    border: 2px solid #DEDBDB;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.main_top{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    align-items: center;
+}
+.offert{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.offert h2{
+    color: #F0400F;
+}
+h1{
+    text-align: center;
+    color: #0E0D5D;
+    padding-top:110px;
+    padding-bottom: 20px;
+    font-size: 48px;
+}
+.wrapper{
+    width: 533px;
+    height: 70px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.student{
+    background-color: white;
+    width: 255px;
+    height: 54px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.student p{
+    font-size: 28px;
+}
+.parent p{
+    font-size: 28px;
+    color: #757575;
+
+}
+.index{
+   justify-content: center;
+   margin-top: 30px;
+   display: flex;
+   position: relative;
+}
+.inter{
+    justify-content: center;
+   margin-top: 30px;
+   display: flex;
+   position: relative;
+}
+.input{
+    width: 533px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: #F5F5F5;
+    border: 2px #DEDBDB;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 25px;
+    padding-left: 20px;
+
+}
+.inpul{
+    width: 533px;
+    height: 70px;
+    border-radius: 15px;
+    border: 2px #DEDBDB;
+    background-color: #F5F5F5;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 25px;
+    padding-left: 20px;
+}
+ .inter img{
+    position: absolute;
+    /* padding-left: 420px;
+    padding-top: 20px; */
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+button{
+    color: white;
+    background-color: #F69E86;
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    border:5px ;
+    left: 785px;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    margin-left: 400px;
+    padding-left: 5px;
+    margin-top: 40px;
+}
+    
+
